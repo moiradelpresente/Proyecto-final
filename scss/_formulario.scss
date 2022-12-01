@@ -1,24 +1,14 @@
 p {
     color: $color-fuentes-secundario;
     justify-content: flex-start;
+    text-align: justify;
     position: relative;
     margin-bottom: 3rem;
-    font-size: 2.8rem;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.8rem;
 }
 
-.row {
-    border-radius: 2rem;
-    position: center;
-    padding: 1rem;
-    max-width: 100%;
-    height: auto;
-    transition: all 0.3s ease;
 
-    &:hover {
-
-        transform: scale(1.03);
-    }
-}
 
 ul {
     list-style: none;
@@ -26,24 +16,12 @@ ul {
     margin: 0;
 }
 
-form {
-    margin: 0 auto;
-    width: 800px;
-    padding: 2rem;
-    border: 2px solid rgb(57, 20, 224);
-    border-radius: 2em;
-
-
-    ul {
-        list-style: none;
-        padding: 2rem;
-        margin: 3rem;
-    }
-
-    li {
-        margin-top: 1rem;
-    }
+.space {
+   margin: 5%;
+   height: calc(100vh - 10rem);
 }
+
+
 
 label {
     display: inline-block;
@@ -51,9 +29,15 @@ label {
     text-align: right;
 }
 
+input {
+width: 100%;
+position: relative;
+
+}
+
 input textarea {
     font: 1rem sans-serif;
-    width: 600px;
+    width: 300px;
     box-sizing: border-box;
     border: 1px solid #999;
 }
@@ -65,13 +49,9 @@ textarea {
 }
 
 .button {
-    /* Alinear los botones con los campos de texto */
     padding-left: 90px;
-    /* mismo tamaño que los elementos de la etiqueta */
 }
 
 button {
-    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
-       entre las etiquetas y sus campos de texto */
     margin-left: .5em;
 }
