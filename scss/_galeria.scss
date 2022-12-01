@@ -16,7 +16,7 @@
     }
 }
 
-.imagengaleria{
+.row {
     border-radius: 1rem;
     padding: 0.4rem;
     max-width: 100%;
@@ -25,7 +25,7 @@
     filter: grayscale(50%);
 
     &:hover {
-        filter: grayscale(0%);
+        filter: 0%;
         transform: scale(1.03);
     }
 }
